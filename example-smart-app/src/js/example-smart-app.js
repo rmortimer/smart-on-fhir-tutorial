@@ -39,6 +39,8 @@
 
           var height = byCodes('8302-2');
           var weight = byCodes('29463-7');
+          console.log('WEIGHT');
+          console.log(weight);
           var systolicbp = getBloodPressureValue(byCodes('55284-4'),'8480-6');
           var diastolicbp = getBloodPressureValue(byCodes('55284-4'),'8462-4');
           var hdl = byCodes('2085-9');
